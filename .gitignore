@@ -1,0 +1,21 @@
+
+# Environment variables and API keys
+.env
+.env.*
+!.env.example
+
+# Python virtual environment
+.venv/
+venv/
+ENV/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+.streamlit/credentials.toml
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Local development files
+.DS_Store
