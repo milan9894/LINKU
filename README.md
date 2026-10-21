@@ -4,6 +4,10 @@
 
 [🚀 **Live Demo — Try LINKU**](https://linku-student-ai.streamlit.app/)
 
+# LINKU — Student AI Ecosystem
+
+**Status: In Progress** 🚧
+
 LINKU is a student-focused AI ecosystem designed to support academic learning, PDF-based study workflows, and personalized conversational assistance.
 
 ## Features
