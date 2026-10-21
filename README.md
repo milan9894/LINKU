@@ -2,13 +2,15 @@
 
 **A syllabus-grounded learning assistant and personalized AI companion for students.**
 
+[🚀 **Live Demo — Try LINKU**](https://linku-student-ai.streamlit.app/)
+
 LINKU is a student-focused AI ecosystem designed to support academic learning, PDF-based study workflows, and personalized conversational assistance.
 
 ## Features
 
 ### 📚 MILANO — Syllabus-Grounded Study Assistant
 - Upload academic PDFs and retrieve relevant passages.
-- Ask questions based on the uploaded study material.
+- Ask questions based on uploaded study material.
 - Generate answers grounded in retrieved content.
 - Display source-page references to help students verify answers.
 - Uses lexical, BM25-inspired ranking to identify relevant text passages.
@@ -79,9 +81,11 @@ Create a `.env` file in the project root:
 GEMINI_API_KEY=your_api_key_here
 ```
 
-Never commit your `.env` file or expose your API key publicly.
+Replace the placeholder with your own Gemini API key.
 
-### 5. Run LINKU
+**Security:** Never commit your `.env` file or expose your API key publicly.
+
+### 5. Run LINKU locally
 
 ```bash
 python -m streamlit run app.py
@@ -91,9 +95,11 @@ Open the local URL displayed in your terminal.
 
 ## Deployment
 
-LINKU can be deployed using [Streamlit Community Cloud](https://share.streamlit.io/).
+LINKU is deployed using [Streamlit Community Cloud](https://share.streamlit.io/).
 
-Configure `GEMINI_API_KEY` in the app's Streamlit Secrets settings rather than uploading your local `.env` file.
+**Live application:** https://linku-student-ai.streamlit.app/
+
+For cloud deployment, configure `GEMINI_API_KEY` through the app's Streamlit Secrets settings rather than uploading your local `.env` file.
 
 ## Future Improvements
 
